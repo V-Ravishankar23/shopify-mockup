@@ -1,0 +1,114 @@
+body {
+	font-family: "Helvetica";
+	background-color: #000639;
+}
+
+p {
+	color: white;
+	font-family: "Helvetica-light";
+}
+
+.title {
+	color: white;
+	font-size: 24px;
+}
+
+#green-line {
+	width: 25px;
+	height: 1px;
+	margin-left: 0;
+	background-color: #7AB55C;
+	margin-top: 20px;
+}
+
+#form-title {
+	margin-top: 45px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #8e8e8e !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #8e8e8e !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #8e8e8e !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #8e8e8e !important;
+}
+
+select {
+  -webkit-appearance: none; /* remove arrow*/
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 16px;
+}
+
+.dropdown:after {
+    content: '\f0d7';
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #8e8e8e;
+    right: 11px;
+    top: 7px;
+    height: 25px;
+    padding: 4px 0px 0px 8px;
+    border-left: .3px solid #bababa;
+    position: absolute;
+    pointer-events: none;
+}
+
+select::-ms-expand {
+display: none; /* Remove arrow in IE */
+}
+
+#submit {
+	width: 100%;
+	background-color: #5c6ac4;
+	color: white;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color: #7483db;
+}
+
+#submit:active {
+	background-color: #4c5aad;
+}
+
+.form-part {
+	margin: 0 0 30px 0;
+}
+
+#email-error {
+	margin: -25px 0 10px 0;
+	font-size: 12px;
+	color: #C23628;
+	display:none;
+}
+
+#thank-you {
+	display: none;
+}
+
+#thank-you h3 {
+	color: white;
+	font-size: 20px;
+	font-family: "Helvetica-light";
+}
+
+.foot {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 20px;
+}
+
+#unsubscribe {
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	text-decoration: underline;
+}
